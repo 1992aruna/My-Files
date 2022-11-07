@@ -1,0 +1,27 @@
+.main-2{
+align-items: center;
+}
+.content-2{
+background: #e7feff;
+border-radius: 20px; 
+width: 100%;
+height: 579;
+text-align: center;
+justify-content: center;
+}
+.content-2 ul {
+padding: 50px 40px;
+}
+.content-2 ul li {
+display: inline-block;
+color: #545F7E;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 20px;
+}
+.content-3 span{
+width:78px;
+height: 20px;
+background: linear-gradient(180deg,#47D6E2 0,#387DFF 100%);
+
+}

@@ -1,0 +1,34 @@
+body {
+    
+background-color: wheat;
+width: 700px;    
+
+}
+
+
+.gar {
+display: flex;
+    
+justify-content: space-between;
+    
+align-items: center;
+}
+
+.nav {
+    
+list-style: none;
+    
+display: flex;
+
+}
+.nav > li {
+    padding: 10px;
+}
+.nav li a {
+
+text-decoration: none;
+
+padding: 5px 10px;
+
+}
+

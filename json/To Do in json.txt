@@ -1,0 +1,39 @@
+For creating package.json
+
+1) npm init -y
+
+For creating package-lock.json
+
+1)  npm install
+
+To Automatic restart
+
+1) npm install --save-dev nodemon
+ 
+                 OR
+1) npm i nodemon -D
+
+Dependencies:
+
+1) Express - npm install express mongoose cors
+2) npm i express express-fileupload
+ 
+After creating Database  in mongoodb
+
+1) npm i dotenv
+
+Multer adds a body object and a file or files object to the request object.
+The body object contains the values of the text fields of the form, the file or files 
+object contains the files uploaded via the form.
+
+1) npm install --save multer
+
+To create frontend
+
+1) npx create-react-app frontend
+2) npm install @mui/material @emotion/react @emotion/styled
+
+GET: http://localhost:5000/------
+GET: http://localhost:5000/------/<id>
+POST: http://localhost:5000/------
+PATCH: http://localhost:5000/------/<id>

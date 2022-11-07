@@ -1,0 +1,126 @@
+{box-sizing: border-box;}
+body {
+margin: 0;
+font-family: Arial;
+}
+.main{
+display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.main-content{
+width: 500px;
+height: 250px;
+padding: 20px;
+}
+.main-content h2{
+font-size: 30px;
+}
+.main-content p{
+font-size: 16px;
+color: #545F7E;
+line-height: 1.3;
+}
+h2 span{
+font-size: 30px;
+color: #B577F9;
+}
+.main-content input{
+width: 350px;
+height: 50px;
+font-size: 15px;
+border-radius: 5px;
+border: 1px solid;
+padding: 10px; 
+}
+.btn-1{
+Margin-top: 20px;
+padding: 10px;
+width: 175px;
+color: white;
+font-size: 18px;
+background: linear-gradient(180deg,#8C83F7 0,#4136C1 100%);
+border: none;
+border-radius: 5px;
+box-shadow: 0 6px 12px #766de880;
+} 
+.card 
+{ 
+justify-content:center;
+border-radius: 50px; 
+border:none; 
+width:622px; 
+height:350px; 
+text-align:center; 
+padding:30px;
+background: grey;
+box-shadow: 0 0 12px #b577f980;
+ 
+} 
+.card1
+{ 
+background: linear-gradient(135deg,#B577F9 0,#F282C4 25%,#B577F9 50%,#F282C4 75%,#B577F9 100%);
+border-radius: 50px; 
+margin-top:-10px;
+margin-left:-10px;
+margin-right:-10px;
+justify-content:center; 
+border:none; 
+text-align:center; 
+padding:20px;
+box-shadow: 3px 6px 12px #252e481a;
+ 
+} 
+.card2 
+{ 
+background: white;
+justify-content:center;
+border-radius: 30px;  
+border:none; 
+text-align:center; 
+padding:90px;
+box-shadow: 3px 6px 12px #252e481a;
+ 
+}
+.video{
+position: relative;
+    top: 0;
+    left: 0;
+    width: ;
+    height: ;
+    border: none;
+}
+.content-1{
+align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+.content-1:before{
+background-color: #545F7E;
+    content: '';
+    display: inline-block;
+    flex-grow: 1;
+    height: 1px;
+    width: 100%;
+}
+.content-1:after{
+background-color: #545F7E;
+    content: '';
+    display: inline-block;
+    flex-grow: 1;
+    height: 1px;
+    width: 100%;
+}
+.content-1 p{
+color: #545F7E;
+    margin: 0 auto;
+    padding: 0 12px;
+    text-align: center;
+font-size: 16px;
+line-height: 1.3;
+}
+.content-1 span{
+color: #252E48;
+    font-weight: 700;
+}
